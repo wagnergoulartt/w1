@@ -1,0 +1,89 @@
+/*--------------------------------------------------
+	Pricing Style
+--------------------------------------------------*/
+.cpe-pricing-default {
+  border: 1px solid #00aff0;
+  margin-bottom: 30px;
+  text-align: center; }
+  .cpe-pricing-default .pricing-heading {
+    background: #00aff0;
+    color: #ffffff;
+    padding: 18px 0; }
+    .cpe-pricing-default .pricing-heading h6 {
+      font-size: 1.8rem;
+      color: inherit;
+      font-family: inherit; }
+  .cpe-pricing-default .pricing-body {
+    padding: 40px 30px; }
+    .cpe-pricing-default .pricing-body .rate {
+      margin-bottom: 30px; }
+      .cpe-pricing-default .pricing-body .rate .amount {
+        font-weight: 700;
+        margin-bottom: 10px; }
+    .cpe-pricing-default .pricing-body p {
+      margin-bottom: 50px;
+      font-size: 1.4rem;
+      font-family: inherit;
+      color: inherit; }
+
+.cpe-pricing-standard {
+  padding: 35px 25px 40px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  margin-bottom: 30px;
+  text-align: center; }
+  .cpe-pricing-standard:hover {
+    border: 1px solid #00aff0; }
+    .cpe-pricing-standard:hover .pricing-body .rate {
+      background: #00aff0;
+      color: #ffffff; }
+  .cpe-pricing-standard .pricing-heading {
+    margin-bottom: 20px; }
+  .cpe-pricing-standard .pricing-body .rate {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border-radius: 70px;
+    border: 1px solid #00aff0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    color: #00aff0; }
+    .cpe-pricing-standard .pricing-body .rate .amount {
+      margin-top: 25px;
+      font-weight: 700;
+      color: inherit;
+      font-size: 3.6rem;
+      font-family: inherit; }
+    .cpe-pricing-standard .pricing-body .rate .validity {
+      color: inherit;
+      font-size: 1.8rem;
+      font-family: inherit; }
+  .cpe-pricing-standard .pricing-body .pricing-list {
+    margin: 35px 0;
+    padding: 0;
+    list-style: none; }
+  .cpe-pricing-standard.enterprise {
+    border-color: #00aff0; }
+    .cpe-pricing-standard.enterprise .pricing-body .rate {
+      background: #00aff0;
+      color: #ffffff; }
+    .cpe-pricing-standard.enterprise .pricing-body .button {
+      background: #00aff0;
+      color: #ffffff; }
+
+@media (max-width: 767px) {
+  .cpe-pricing-item {
+    float: left;
+    width: calc(50% - 20px);
+    margin: 0 10px 30px; } }
+
+@media (max-width: 539px) {
+  .cpe-pricing-item {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px; } }

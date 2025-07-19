@@ -1,0 +1,146 @@
+/*--------------------------------------------------
+	Counter Style
+--------------------------------------------------*/
+.cpe-counter-bg {
+  background: url(../images/bg/counter-bg.jpg) no-repeat center center;
+  background-size: cover; }
+
+.cpe-counter-bg-2 {
+  background: url(../images/bg/counter-bg-2.jpg) no-repeat center center;
+  background-size: cover; }
+
+.cpe-fact {
+  margin-bottom: 30px; }
+  .cpe-fact span.ti {
+    font-size: 40px; }
+  .cpe-fact .fact-number {
+    padding-bottom: 3px;
+    position: relative;
+    font-size: 3.6rem;
+    font-family: inherit;
+    color: inherit; }
+    .cpe-fact .fact-number:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 50px;
+      height: 2px;
+      background: #00aff0; }
+  .cpe-fact .fact-number + p {
+    margin-top: 10px; }
+  .cpe-fact p {
+    font-size: 1.4rem;
+    color: inherit;
+    font-family: inherit; }
+
+.cpe-fact.cpe-fact-default .fact-number:before {
+  left: 0; }
+
+.cpe-fact.cpe-fact-center span.ti {
+  color: #00aff0; }
+
+.cpe-fact.cpe-fact-center .fact-number:before {
+  left: 50%;
+  margin-left: -25px; }
+
+.cpe-fact.cpe-fact-layer {
+  padding: 70px 15px;
+  background: rgba(255, 255, 255, 0.7); }
+
+.cpe-fact.cpe-fact-round {
+  margin-bottom: 30px; }
+  .cpe-fact.cpe-fact-round .cpe-fact-center {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    border: 2px solid #00aff0;
+    border-radius: 50%;
+    position: relative; }
+    .cpe-fact.cpe-fact-round .cpe-fact-center .round-fact-content {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 15px;
+      right: 15px;
+      text-align: center; }
+      .cpe-fact.cpe-fact-round .cpe-fact-center .round-fact-content span.ti {
+        color: #00aff0; }
+      .cpe-fact.cpe-fact-round .cpe-fact-center .round-fact-content .fact-number:before {
+        left: 50%;
+        margin-left: -25px; }
+
+.cpe-rounded-progress.cpe-pie-chart {
+  border: 20px solid #ffffff;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin: 0 auto 30px;
+  position: relative; }
+  .cpe-rounded-progress.cpe-pie-chart .pregress-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .cpe-rounded-progress.cpe-pie-chart .pregress-center span {
+      font-size: 1.8rem;
+      line-height: 1.2;
+      color: #262626; }
+  .cpe-rounded-progress.cpe-pie-chart svg {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    top: -20px;
+    left: -20px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center; }
+    .cpe-rounded-progress.cpe-pie-chart svg circle {
+      stroke-dasharray: 471.2389 471.2389;
+      stroke-dashoffset: 471.2389;
+      stroke: #00aff0;
+      stroke-linecap: round;
+      -webkit-transition: all .6s ease;
+      -o-transition: all .6s ease;
+      transition: all .6s ease; }
+
+@media all and (max-width: 1199px) {
+  .cpe-fact.cpe-fact-layer {
+    padding: 40px 15px;
+    background: rgba(255, 255, 255, 0.7); }
+  .cpe-fact.cpe-fact-round .cpe-fact-center {
+    height: 210px;
+    width: 210px; } }
+
+@media all and (max-width: 767px) {
+  .cpe-fact {
+    float: left;
+    width: calc(50% - 30px);
+    margin: 0 15px 30px; }
+  .cpe-rounded-progress.cpe-pie-chart {
+    float: left;
+    margin: 0 15px 30px; } }
+
+@media all and (max-width: 539px) {
+  .cpe-fact.cpe-fact-round {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px; }
+    .cpe-fact.cpe-fact-round .cpe-fact-center {
+      width: 230px;
+      height: 230px; } }
+
+@media all and (max-width: 479px) {
+  .cpe-fact.cpe-fact-layer {
+    width: 100%;
+    float: none;
+    margin: 0 0 30px;
+    padding: 70px 15px;
+    background: rgba(255, 255, 255, 0.7); } }

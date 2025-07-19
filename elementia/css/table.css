@@ -1,0 +1,50 @@
+/*--------------------------------------------------
+	Table Style
+--------------------------------------------------*/
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border: 0;
+  padding: 15px 15px; }
+
+.cpe-table-default {
+  width: 100%; }
+  .cpe-table-default .table-head {
+    color: #ffffff; }
+    .cpe-table-default .table-head th {
+      font-weight: 400; }
+  .cpe-table-default tr td, .cpe-table-default tr th {
+    padding: 15px 15px;
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: inherit;
+    border: 0; }
+  .cpe-table-default tr:nth-child(even) {
+    background: #ffffff; }
+  .cpe-table-default tr:nth-child(odd) {
+    background: rgba(0, 175, 240, 0.1); }
+  .cpe-table-default tr:first-child {
+    background: #00aff0; }
+
+/*--------------------------------------------------
+	Table Line Style
+--------------------------------------------------*/
+.cpe-table-line {
+  width: 100%; }
+  .cpe-table-line .table-head {
+    color: #ffffff;
+    background: #00aff0; }
+    .cpe-table-line .table-head th {
+      font-weight: 400; }
+  .cpe-table-line tr {
+    border: 1px solid #00aff0;
+    background: #ffffff; }
+    .cpe-table-line tr td, .cpe-table-line tr th {
+      padding: 12px 15px;
+      font-family: inherit;
+      font-size: 1.4rem;
+      border: 0;
+      color: inherit; }

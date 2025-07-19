@@ -1,0 +1,248 @@
+/*-----------------------------------------------
+	Image Gallery
+------------------------------------------------*/
+.cpe-gallery-default .grid-item {
+  float: left;
+  width: calc(20% - 10px);
+  margin: 5px; }
+
+.cpe-gallery-default .grid-item--width2 {
+  width: calc(40% - 10px); }
+
+.cpe-no-gap .grid-item {
+  float: left;
+  width: 20%; }
+
+.cpe-collum-3 .grid-item {
+  width: calc(33% - 30px);
+  margin: 0 15px 30px; }
+
+.cpe-collum-4 .grid-item {
+  width: calc(25% - 30px);
+  margin: 0 15px 30px; }
+
+.cpe-collum-5 .grid-item {
+  width: calc(20% - 20px);
+  margin: 0 10px 20px; }
+
+.cpe-masonary .grid-item {
+  width: 20%; }
+
+.cpe-collum-2 .grid-item {
+  width: calc(50% - 30px);
+  margin: 0 15px 30px; }
+
+.grid-item {
+  position: relative;
+  overflow: hidden; }
+  .grid-item:hover img {
+    -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    -webkit-filter: blur(2px);
+    filter: blur(2px); }
+  .grid-item:hover .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border-radius: 0;
+    background: rgba(0, 175, 240, 0.8); }
+    .grid-item:hover .overlay i.fa {
+      font-size: 1.4rem; }
+  .grid-item a {
+    display: block;
+    outline: none; }
+    .grid-item a img {
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+    .grid-item a .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 0;
+      width: 0;
+      opacity: 0;
+      border-radius: 50%;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease;
+      background: rgba(0, 175, 240, 0); }
+      .grid-item a .overlay i.fa {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        font-size: 0;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+
+.cpe-collum-3 .grid-item:hover a .overlay i.fa,
+.cpe-collum-2 .grid-item:hover a .overlay i.fa {
+  font-size: 18px; }
+
+.cpe-nav {
+  text-align: center;
+  margin-bottom: 30px; }
+  .cpe-nav .btn {
+    padding: 3px 15px;
+    background: transparent;
+    border: 1px solid #00aff0;
+    border-radius: 3px; }
+  .cpe-nav .btn + .btn {
+    margin-left: 15px; }
+  .cpe-nav .btn.active {
+    background: #00aff0;
+    color: #ffffff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none; }
+
+/*-----------------------------------
+		Magnefic PopUp Controller Style
+------------------------------------*/
+.mfp-arrow:before {
+  border-top-width: 0;
+  border-bottom-width: 0; }
+
+.mfp-arrow-left:before {
+  border-right: 0; }
+
+.mfp-arrow-right:before {
+  border-left: 0; }
+
+.mfp-arrow:after {
+  border-top-width: 0;
+  border-bottom-width: 0; }
+
+.mfp-arrow-left:after {
+  border-right: 0; }
+
+.mfp-arrow-right:after {
+  border-left: 0; }
+
+.mfp-arrow-left:before {
+  content: "\f104";
+  font-family: 'FontAwesome';
+  color: #ffffff;
+  font-size: 3.6rem; }
+
+.mfp-arrow-right:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  color: #ffffff;
+  font-size: 3.6rem; }
+
+@media (max-width: 991px) {
+  .cpe-collum-3 .grid-item {
+    width: calc(50% - 30px);
+    margin: 0 15px 30px; }
+  .cpe-collum-4 .grid-item {
+    width: calc(33% - 30px);
+    margin: 0 15px 30px; }
+  .cpe-collum-5 .grid-item {
+    width: calc(25% - 20px);
+    margin: 0 10px 20px; }
+  .cpe-gallery-default .grid-item {
+    width: calc(25% - 10px);
+    margin: 5px; }
+  .cpe-gallery-default .grid-item--width2 {
+    width: calc(50% - 10px); }
+  .cpe-no-gap .grid-item {
+    float: left;
+    width: 25%; }
+  .cpe-masonary .grid-item {
+    width: 25%; }
+  .cpe-right-nav {
+    position: relative; }
+    .cpe-right-nav .cpe-nav {
+      position: static;
+      top: auto;
+      right: auto;
+      text-align: left;
+      margin-left: 15px; } }
+
+@media (max-width: 639px) {
+  .cpe-collum-3 .grid-item {
+    width: calc(50% - 20px);
+    margin: 0 10px 20px; }
+  .cpe-collum-4 .grid-item {
+    width: calc(33% - 20px);
+    margin: 0 10px 20px; }
+  .cpe-collum-5 .grid-item {
+    width: calc(33% - 20px);
+    margin: 0 10px 20px; }
+  .cpe-gallery-default .grid-item {
+    width: calc(33% - 10px);
+    margin: 5px; }
+  .cpe-gallery-default .grid-item--width2 {
+    width: calc(66% - 10px); }
+  .cpe-no-gap .grid-item {
+    float: left;
+    width: 33%; }
+  .cpe-masonary .grid-item {
+    width: 33%; } }
+
+@media (max-width: 579px) {
+  .cpe-collum-3 .grid-item {
+    width: calc(50% - 30px);
+    margin: 0 15px 20px; }
+  .cpe-collum-4 .grid-item {
+    width: calc(50% - 30px);
+    margin: 0 15px 20px; }
+  .cpe-collum-5 .grid-item {
+    width: calc(50% - 30px);
+    margin: 0 15px 20px; }
+  .cpe-gallery-default .grid-item {
+    width: calc(50% - 10px);
+    margin: 5px; }
+  .cpe-gallery-default .grid-item--width2 {
+    width: calc(100% - 10px); }
+  .cpe-no-gap .grid-item {
+    float: left;
+    width: 50%; }
+  .cpe-masonary .grid-item {
+    width: 50%; } }
+
+@media (max-width: 479px) {
+  .cpe-nav {
+    padding: 0 15px; }
+    .cpe-nav button {
+      margin-bottom: 10px;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+    .cpe-nav .btn + .btn {
+      margin-left: 0; } }
+
+@media (max-width: 439px) {
+  .cpe-collum-2 .grid-item {
+    width: calc(100% - 30px);
+    margin: 0 15px 15px; }
+  .cpe-collum-3 .grid-item {
+    width: calc(100% - 30px);
+    margin: 0 15px 15px; }
+  .cpe-collum-4 .grid-item {
+    width: calc(100% - 30px);
+    margin: 0 15px 15px; }
+  .cpe-collum-5 .grid-item {
+    width: calc(100% - 30px);
+    margin: 0 15px 20px; }
+  .cpe-gallery-default .grid-item {
+    width: calc(100% - 0px);
+    margin: 0 0 10px; }
+  .cpe-gallery-default .grid-item--width2 {
+    width: calc(100% - 0); }
+  .cpe-no-gap .grid-item {
+    float: left;
+    width: 100%; }
+  .cpe-masonary .grid-item {
+    width: 100%; } }

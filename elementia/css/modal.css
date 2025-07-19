@@ -1,0 +1,51 @@
+/*-----------------------------------------
+	Modal
+-----------------------------------------*/
+.modal-buttons {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto; }
+  .modal-buttons .cpe-button {
+    margin-right: 5px;
+    margin-bottom: 10px; }
+
+.modal-login-button {
+  background: #16b99a;
+  border-color: #16b99a;
+  color: #ffffff; }
+  .modal-login-button:hover {
+    background: #16b99a;
+    border-color: #16b99a;
+    color: #ffffff; }
+
+.modal-signup-button {
+  background: #cc8b60;
+  border-color: #cc8b60;
+  color: #ffffff; }
+  .modal-signup-button:hover {
+    background: #cc8b60;
+    border-color: #cc8b60;
+    color: #ffffff; }
+
+.modal-offer-button {
+  background: #f14833;
+  border-color: #f14833;
+  color: #ffffff; }
+  .modal-offer-button:hover {
+    background: #f14833;
+    border-color: #f14833;
+    color: #ffffff; }
+
+.modal-header {
+  border-bottom: 0; }
+  .modal-header .close {
+    color: #00aff0;
+    opacity: 1;
+    outline: none; }
+    .modal-header .close:focus {
+      outline: none; }
+
+.modal-content {
+  border-radius: 3px; }
+  .modal-content .modal-body .section-heading {
+    margin-bottom: 30px; }

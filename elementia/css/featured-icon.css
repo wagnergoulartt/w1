@@ -1,0 +1,95 @@
+/*--------------------------------------------------
+	Featured Icon
+--------------------------------------------------*/
+.cpe-featured-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+  position: relative;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+  .cpe-featured-icon:hover {
+    border: 1px solid #00aff0; }
+  .cpe-featured-icon span {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #00aff0; }
+
+/*--------------------------------------------------
+	Featured Icon
+--------------------------------------------------*/
+.cpe-featured-icon-color-style {
+  height: 100px;
+  width: 100px;
+  border-radius: 3px;
+  position: relative;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+  .cpe-featured-icon-color-style span {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+
+.cpe-featured-icon-color-style.blue {
+  background: #22a9e1;
+  border: 1px solid #22a9e1; }
+  .cpe-featured-icon-color-style.blue:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.blue:hover span {
+      color: #22a9e1; }
+
+.cpe-featured-icon-color-style.green {
+  background: #16b99a;
+  border: 1px solid #16b99a; }
+  .cpe-featured-icon-color-style.green:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.green:hover span {
+      color: #22a9e1; }
+
+.cpe-featured-icon-color-style.chocolate {
+  background: #cc8b60;
+  border: 1px solid #cc8b60; }
+  .cpe-featured-icon-color-style.chocolate:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.chocolate:hover span {
+      color: #cc8b60; }
+
+.cpe-featured-icon-color-style.red {
+  background: #f14833;
+  border: 1px solid #f14833; }
+  .cpe-featured-icon-color-style.red:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.red:hover span {
+      color: #f14833; }
+
+.cpe-featured-icon-color-style.orange {
+  background: #fca224;
+  border: 1px solid #fca224; }
+  .cpe-featured-icon-color-style.orange:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.orange:hover span {
+      color: #fca224; }
+
+.cpe-featured-icon-color-style.yellow {
+  background: #efe74b;
+  border: 1px solid #efe74b; }
+  .cpe-featured-icon-color-style.yellow:hover {
+    background: #ffffff; }
+    .cpe-featured-icon-color-style.yellow:hover span {
+      color: #efe74b; }

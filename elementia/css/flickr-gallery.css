@@ -1,0 +1,91 @@
+/*--------------------------------------------------
+	Flickr Gallery Style
+--------------------------------------------------*/
+.cpe-flickr-gallery-block h5 {
+  margin-bottom: 30px; }
+
+.cpe-flickr-gallery {
+  text-align: center; }
+  .cpe-flickr-gallery .thumbnails {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block; }
+    .cpe-flickr-gallery .thumbnails:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .cpe-flickr-gallery .thumbnails .span1 {
+      float: left;
+      width: 179px;
+      height: 179px;
+      margin: 5px; }
+      .cpe-flickr-gallery .thumbnails .span1 .thumbnail {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        outline: none; }
+        .cpe-flickr-gallery .thumbnails .span1 .thumbnail:hover {
+          display: inherit; }
+        .cpe-flickr-gallery .thumbnails .span1 .thumbnail:focus img {
+          width: 179px; }
+        .cpe-flickr-gallery .thumbnails .span1 .thumbnail img {
+          width: 100%;
+          margin-right: 0;
+          margin-left: 0; }
+
+.cpe-flickr-gallery.gallery-small .thumbnails .span1 {
+  width: 83px;
+  height: 83px; }
+  .cpe-flickr-gallery.gallery-small .thumbnails .span1 .thumbnail:focus img {
+    width: 83px; }
+
+.cpe-flickr-gallery.gallery-half .thumbnails .span1 {
+  width: 81px;
+  height: 81px; }
+
+.cpe-flickr-gallery.gallery-center .thumbnails .span1 {
+  width: 80px;
+  height: 80px; }
+
+/*-----------------------------------
+		Magnefic PopUp Controller Style
+------------------------------------*/
+.mfp-arrow:before {
+  border-top-width: 0;
+  border-bottom-width: 0; }
+
+.mfp-arrow-left:before {
+  border-right: 0; }
+
+.mfp-arrow-right:before {
+  border-left: 0; }
+
+.mfp-arrow:after {
+  border-top-width: 0;
+  border-bottom-width: 0; }
+
+.mfp-arrow-left:after {
+  border-right: 0; }
+
+.mfp-arrow-right:after {
+  border-left: 0; }
+
+.mfp-arrow-left:before {
+  content: "\f104";
+  font-family: 'FontAwesome';
+  color: #ffffff;
+  font-size: 3.6rem; }
+
+.mfp-arrow-right:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  color: #ffffff;
+  font-size: 3.6rem; }
+
+@media all and (max-width: 1199px) {
+  .cpe-flickr-gallery .thumbnails .span1 {
+    width: 178px;
+    height: 178px; } }

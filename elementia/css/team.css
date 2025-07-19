@@ -1,0 +1,134 @@
+/*--------------------------------------------------
+	Team Style
+--------------------------------------------------*/
+.cpe-member {
+  text-align: center;
+  margin-bottom: 30px; }
+  .cpe-member:hover .member-info h5 a {
+    color: #00aff0; }
+  .cpe-member .member-info {
+    margin-top: 22px; }
+    .cpe-member .member-info h5 {
+      font-weight: 700;
+      margin-bottom: 7px;
+      font-size: 2.2rem;
+      font-family: inherit; }
+      .cpe-member .member-info h5 a {
+        color: #262626;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+    .cpe-member .member-info .designation {
+      font-weight: 700;
+      font-size: 1.4rem;
+      font-family: inherit;
+      color: inherit; }
+    .cpe-member .member-info .content {
+      font-size: 1.4rem;
+      font-family: inherit;
+      color: inherit; }
+    .cpe-member .member-info .social-link {
+      margin: 13px 0 0;
+      padding: 0;
+      list-style: none; }
+      .cpe-member .member-info .social-link li {
+        display: inline;
+        margin: 0 3px; }
+        .cpe-member .member-info .social-link li a {
+          width: 30px;
+          height: 30px;
+          border-radius: 15px;
+          background: #e7e7e7;
+          line-height: 30px;
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+          .cpe-member .member-info .social-link li a:hover {
+            background: #00aff0; }
+            .cpe-member .member-info .social-link li a:hover i.fa {
+              color: #ffffff; }
+          .cpe-member .member-info .social-link li a i.fa {
+            color: #262626;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease; }
+
+.cpe-member.cpe-member-overlay:hover .member-thumb .overlay {
+  opacity: 1;
+  background: rgba(0, 175, 240, 0.8); }
+
+.cpe-member.cpe-member-overlay .member-thumb {
+  position: relative; }
+  .cpe-member.cpe-member-overlay .member-thumb .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 175, 240, 0);
+    color: #ffffff;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+    .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 10px; }
+      .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content h5 {
+        font-weight: 700;
+        margin-bottom: 7px;
+        font-family: inherit;
+        font-size: 2.2rem; }
+        .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content h5 a {
+          color: #ffffff;
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+      .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .designation {
+        font-weight: 700;
+        color: inherit;
+        font-family: inherit;
+        font-size: 1.4rem; }
+      .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link {
+        margin: 13px 0 0;
+        padding: 0;
+        list-style: none; }
+        .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link li {
+          display: inline;
+          margin: 0 3px; }
+          .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link li a {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            background: #e7e7e7;
+            line-height: 30px;
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease; }
+            .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link li a:hover {
+              background: #00aff0; }
+              .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link li a:hover i.fa {
+                color: #ffffff; }
+            .cpe-member.cpe-member-overlay .member-thumb .overlay .overlay-content .social-link li a i.fa {
+              color: #262626;
+              -webkit-transition: all .3s ease;
+              -o-transition: all .3s ease;
+              transition: all .3s ease; }
+
+@media (max-width: 767px) {
+  .cpe-member {
+    float: left;
+    width: calc(50% - 20px);
+    margin: 0 10px 30px; } }
+
+@media (max-width: 499px) {
+  .cpe-member {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px; } }

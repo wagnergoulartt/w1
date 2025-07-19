@@ -1,0 +1,170 @@
+/*--------------------------------------------------
+	Icon Default Style
+--------------------------------------------------*/
+.cpe-default-icon ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0; }
+  .cpe-default-icon ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    .cpe-default-icon ul li a {
+      height: 30px;
+      width: 30px;
+      font-size: 1.4rem;
+      font-family: inherit;
+      border-radius: 15px;
+      background: #e7e7e7;
+      color: #00aff0;
+      line-height: 30px;
+      text-align: center;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .cpe-default-icon ul li a:hover {
+        color: #ffffff;
+        background: #00aff0; }
+
+/*--------------------------------------------------
+	Icon Color Style
+--------------------------------------------------*/
+.cpe-icon-color-style ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0; }
+  .cpe-icon-color-style ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    .cpe-icon-color-style ul li a {
+      text-align: center;
+      color: #ffffff;
+      border-radius: 3px; }
+  .cpe-icon-color-style ul li.icon-1x a {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 1.4rem; }
+  .cpe-icon-color-style ul li.icon-2x a {
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    font-size: 18px; }
+  .cpe-icon-color-style ul li.icon-3x a {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 28px; }
+
+.cpe-icon-color-style.cpe-icon-color-style-round ul li a {
+  border-radius: 50%; }
+
+.cpe-icon-color-style .facebook a {
+  background: #3b5998; }
+
+.cpe-icon-color-style .twitter a {
+  background: #1da1f2; }
+
+.cpe-icon-color-style .linkedin a {
+  background: #0077b5; }
+
+.cpe-icon-color-style .google-plus a {
+  background: #dd4b39; }
+
+.cpe-icon-color-style .youtube-play a {
+  background: #ff0000; }
+
+.cpe-icon-color-style .vimeo a {
+  background: #1ab7ea; }
+
+.cpe-icon-color-style .instagram a {
+  background: #833ab4; }
+
+.cpe-icon-color-style .pinterest a {
+  background: #bd081c; }
+
+.cpe-icon-color-style .flickr a {
+  background: #ff0084; }
+
+.cpe-icon-color-style .dropbox a {
+  background: #007ee5; }
+
+.cpe-icon-color-style .github a {
+  background: #4078c0; }
+
+.cpe-icon-color-style .dribbble a {
+  background: #ea4c89; }
+
+.cpe-icon-color-style .reddit a {
+  background: #ff4500; }
+
+.cpe-icon-color-style .whatsapp a {
+  background: #25d366; }
+
+.cpe-icon-color-style .skype a {
+  background: #00aff0; }
+
+.cpe-icon-color-style .apple a {
+  background: #999999; }
+
+.cpe-icon-color-style .android a {
+  background: #a4c639; }
+
+.cpe-icon-color-style .windows a {
+  background: #0078d7; }
+
+.cpe-icon-color-style .wordpress a {
+  background: #21759b; }
+
+.cpe-icon-color-style .joomla a {
+  background: #f44321; }
+
+.cpe-icon-color-style .css3 a {
+  background: #1572b6; }
+
+.cpe-icon-color-style .html5 a {
+  background: #e34f26; }
+
+.cpe-icon-color-style .internet-explorer a {
+  background: #006eb8; }
+
+.cpe-icon-color-style .opera a {
+  background: #cc0f16; }
+
+.cpe-icon-color-style .chrome a {
+  background: #4285f4; }
+
+.cpe-icon-color-style .firefox a {
+  background: #e66000; }
+
+.cpe-icon-color-style .safari a {
+  background: #4489fe; }
+
+/*--------------------------------------------------
+	Payment Icon
+--------------------------------------------------*/
+.cpe-payment-icon ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.cpe-payment-icon.cpe-payment-icon-box-style ul {
+  font-size: 0; }
+  .cpe-payment-icon.cpe-payment-icon-box-style ul li {
+    display: inline-block;
+    height: 70px;
+    width: 120px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    .cpe-payment-icon.cpe-payment-icon-box-style ul li img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }

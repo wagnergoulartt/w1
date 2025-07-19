@@ -1,0 +1,210 @@
+/*--------------------------------------------------
+	Contact Form Style
+--------------------------------------------------*/
+.cpe-address-box {
+  border: 1px solid rgba(0, 175, 240, 0.2);
+  border-radius: 3px;
+  padding: 60px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+  .cpe-address-box:hover {
+    border: 1px solid #00aff0; }
+  .cpe-address-box span {
+    font-size: 3.6rem;
+    color: #00aff0; }
+  .cpe-address-box span + .address-title {
+    margin-top: 18px; }
+  .cpe-address-box .address-title {
+    margin-bottom: 7px; }
+  .cpe-address-box .contact-by + .contact-by {
+    margin-top: -10px; }
+
+.cpe-contact-form form {
+  position: relative; }
+  .cpe-contact-form form:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .cpe-contact-form form .input-half-grid {
+    float: left;
+    width: calc(50% - 15px);
+    margin-right: 15px; }
+  .cpe-contact-form form .input-half-grid + .input-half-grid {
+    margin-left: 15px;
+    margin-right: 0; }
+  .cpe-contact-form form .input-grid-40 {
+    float: left;
+    width: calc(40% - 15px);
+    margin-right: 15px; }
+  .cpe-contact-form form .input-grid-60 {
+    float: left;
+    width: calc(60% - 15px);
+    margin-left: 15px; }
+  .cpe-contact-form form .form-control {
+    height: 40px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    padding: 0 20px;
+    color: #262626; }
+    .cpe-contact-form form .form-control::-webkit-input-placeholder {
+      color: #262626; }
+    .cpe-contact-form form .form-control::-moz-placeholder {
+      color: #262626; }
+    .cpe-contact-form form .form-control:-ms-input-placeholder {
+      color: #262626; }
+    .cpe-contact-form form .form-control:-moz-placeholder {
+      color: #262626; }
+    .cpe-contact-form form .form-control:focus {
+      border-color: #00aff0; }
+  .cpe-contact-form form textarea.form-control {
+    height: 150px;
+    padding: 10px 20px; }
+  .cpe-contact-form form .cpe-button {
+    width: 100%; }
+
+.cpe-contact-form.cpe-contact-form-2 form .form-control {
+  height: 36px;
+  border-radius: 3px;
+  color: rgba(38, 38, 38, 0.55);
+  border: 1px solid rgba(38, 38, 38, 0.22); }
+  .cpe-contact-form.cpe-contact-form-2 form .form-control::-webkit-input-placeholder {
+    color: rgba(38, 38, 38, 0.55); }
+  .cpe-contact-form.cpe-contact-form-2 form .form-control::-moz-placeholder {
+    color: rgba(38, 38, 38, 0.55); }
+  .cpe-contact-form.cpe-contact-form-2 form .form-control:-ms-input-placeholder {
+    color: rgba(38, 38, 38, 0.55); }
+  .cpe-contact-form.cpe-contact-form-2 form .form-control:-moz-placeholder {
+    color: rgba(38, 38, 38, 0.55); }
+
+.cpe-contact-form.cpe-contact-form-2 form textarea.form-control {
+  height: 87px; }
+
+.cpe-contact-form.cpe-contact-form-2 form .cpe-button {
+  padding: 0 28px;
+  border-radius: 3px; }
+
+.cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .form-control {
+  color: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.22); }
+  .cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.55); }
+  .cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .form-control::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.55); }
+  .cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.55); }
+  .cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .form-control:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.55); }
+
+.cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .cpe-button {
+  padding: 0 28px;
+  border-radius: 3px; }
+  .cpe-contact-bg .cpe-contact-form.cpe-contact-form-2 form .cpe-button.primary-bg:hover {
+    border-color: #ffffff; }
+
+.cpe-contact-form.cpe-contact-form-center form {
+  text-align: center; }
+  .cpe-contact-form.cpe-contact-form-center form .cpe-button-3x {
+    width: auto;
+    padding: 2px 80px; }
+
+.cpe-contact-bg {
+  background: url(../images/bg/contact-bg.jpg) no-repeat center center;
+  background-size: cover; }
+  .cpe-contact-bg .cpe-contact-form form .form-control {
+    background: transparent; }
+
+.cpe-account-form-wrapper {
+  text-align: center;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 50px;
+  max-width: 500px;
+  margin: 0 auto; }
+  .cpe-account-form-wrapper h5 {
+    margin-bottom: 20px; }
+  .cpe-account-form-wrapper form .form-control {
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #e7e7e7;
+    background: #ffffff;
+    padding: 0 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none; }
+  .cpe-account-form-wrapper form .button {
+    width: 100%; }
+  .cpe-account-form-wrapper .or {
+    margin: 10px 0;
+    padding: 0; }
+  .cpe-account-form-wrapper .social-singin .cpe-button {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 7px 0; }
+  .cpe-account-form-wrapper .social-singin .cpe-button.facebook-button {
+    background: #3b5998;
+    color: #ffffff;
+    border-color: #3b5998; }
+  .cpe-account-form-wrapper .social-singin .cpe-button.google-button {
+    background: #dd4b39;
+    color: #ffffff;
+    border-color: #dd4b39; }
+  .cpe-account-form-wrapper .social-singin .cpe-button.twitter-button {
+    background: #1da1f2;
+    color: #ffffff;
+    border-color: #1da1f2; }
+  .cpe-account-form-wrapper .social-singin .cpe-button + .cpe-button {
+    margin-top: 15px; }
+  .cpe-account-form-wrapper .login-option {
+    margin-top: 15px; }
+    .cpe-account-form-wrapper .login-option p a {
+      color: #00aff0;
+      text-decoration: underline; }
+
+@media all and (max-width: 991px) {
+  .cpe-address-box {
+    padding: 30px 15px; } }
+
+@media all and (max-width: 767px) {
+  .cpe-address-box {
+    float: left;
+    width: calc(33% - 10px);
+    margin: 0 5px 30px; } }
+
+@media all and (max-width: 579px) {
+  .cpe-contact-form form .input-half-grid,
+  .cpe-contact-form form .input-grid-40,
+  .cpe-contact-form form .input-grid-60 {
+    float: none;
+    width: 100%;
+    margin-right: 0; }
+  .cpe-contact-form form .input-grid-60 {
+    margin-left: 0; }
+  .cpe-contact-form form .input-half-grid + .input-half-grid {
+    margin-left: 0; }
+  .cpe-contact-form form textarea.form-control {
+    height: 100px; }
+  .cpe-contact-form.cpe-contact-form-center form .cpe-button-3x {
+    padding: 2px 40px; }
+  .cpe-address-box {
+    float: left;
+    width: calc(50% - 30px);
+    margin: 0 15px 30px; } }
+
+@media all and (max-width: 479px) {
+  .cpe-address-box {
+    float: none;
+    width: 100%;
+    margin: 0 0 30px; } }
+
+@media all and (max-width: 439px) {
+  .cpe-account-form-wrapper {
+    padding: 20px; } }

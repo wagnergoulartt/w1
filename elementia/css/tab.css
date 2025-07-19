@@ -1,0 +1,148 @@
+/*--------------------------------------------------
+	Tab Default Style
+--------------------------------------------------*/
+.cpe-tab-default .nav-tabs li a {
+  color: #262626;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 8px 43px;
+  border-radius: 0;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  margin: 0; }
+  .cpe-tab-default .nav-tabs li a:hover {
+    color: #00aff0;
+    background: #ffffff; }
+  .cpe-tab-default .nav-tabs li a span {
+    margin-right: 5px;
+    font-size: 1.4rem;
+    color: #00aff0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+
+.cpe-tab-default .nav-tabs li.active a {
+  color: #00aff0; }
+
+.lite-grey-bg .nav-tabs li.active a {
+  background-color: #f7f7f7; }
+
+.tab-content .tab-content-wrapper {
+  padding: 15px 25px; }
+  .tab-content .tab-content-wrapper:after {
+    display: table;
+    content: "";
+    clear: both; }
+  .tab-content .tab-content-wrapper .tab-thumb {
+    width: 165px;
+    float: left;
+    margin-right: 20px; }
+  .tab-content .tab-content-wrapper .tab-thumb + p {
+    float: left;
+    width: calc(100% - 185px); }
+  .tab-content .tab-content-wrapper p {
+    width: 100%; }
+
+/*--------------------------------------------------
+	Tab Icon Style
+--------------------------------------------------*/
+.cpe-tab-default.cpe-tab-icon-style .nav-tabs li a {
+  padding: 8px 34px; }
+
+/*--------------------------------------------------
+	Tab Box Style
+--------------------------------------------------*/
+.cpe-tab-default.cpe-tab-box-style .nav-tabs {
+  border-bottom: 0; }
+  .cpe-tab-default.cpe-tab-box-style .nav-tabs li a {
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    margin-right: 10px; }
+    .cpe-tab-default.cpe-tab-box-style .nav-tabs li a:hover {
+      border: 1px solid #00aff0; }
+  .cpe-tab-default.cpe-tab-box-style .nav-tabs li.active a {
+    border: 1px solid #00aff0; }
+
+/*--------------------------------------------------
+	Tab Icon Box Style
+--------------------------------------------------*/
+.cpe-tab-default.cpe-tab-box-icon-style .nav-tabs {
+  border-bottom: 0; }
+  .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li a {
+    padding: 8px 34px;
+    border: 0;
+    margin-right: 10px;
+    border-radius: 3px;
+    background: #e7e7e7; }
+    .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li a:hover {
+      border: 0;
+      background: #00aff0;
+      color: #ffffff; }
+      .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li a:hover span {
+        color: #ffffff; }
+  .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li.active a {
+    border: 0;
+    background: #00aff0;
+    color: #ffffff; }
+    .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li.active a span {
+      color: #ffffff; }
+
+/*--------------------------------------------------
+	Tab Icon Image Style
+--------------------------------------------------*/
+.cpe-tab-default.cpe-tab-icon-image .nav-tabs {
+  border-bottom: 0; }
+  .cpe-tab-default.cpe-tab-icon-image .nav-tabs li a {
+    padding: 8px 60px;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 10px;
+    background: #e7e7e7; }
+    .cpe-tab-default.cpe-tab-icon-image .nav-tabs li a:hover {
+      border: 0;
+      background: #00aff0;
+      color: #ffffff; }
+      .cpe-tab-default.cpe-tab-icon-image .nav-tabs li a:hover span {
+        color: #ffffff; }
+  .cpe-tab-default.cpe-tab-icon-image .nav-tabs li.active a {
+    border: 0;
+    background: #00aff0;
+    color: #ffffff; }
+    .cpe-tab-default.cpe-tab-icon-image .nav-tabs li.active a span {
+      color: #ffffff; }
+
+@media (max-width: 639px) {
+  .cpe-tab-default .nav-tabs li a {
+    padding: 8px 30px; }
+  .cpe-tab-default.cpe-tab-icon-style .nav-tabs li a {
+    padding: 8px 20px; }
+  .cpe-tab-default.cpe-tab-box-style .nav-tabs li a {
+    padding: 8px 30px; }
+  .cpe-tab-default.cpe-tab-box-icon-style .nav-tabs li a {
+    padding: 8px 20px; }
+  .cpe-tab-default.cpe-tab-icon-image .nav-tabs li a {
+    padding: 8px 40px; } }
+
+@media (max-width: 539px) {
+  .cpe-tab-default .nav-tabs {
+    border-bottom: 0; }
+    .cpe-tab-default .nav-tabs li {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .cpe-tab-default .nav-tabs li a {
+        border: 1px solid #e7e7e7;
+        border-radius: 3px; }
+    .cpe-tab-default .nav-tabs li.active a {
+      border: 1px solid #00aff0;
+      border-radius: 3px; }
+    .cpe-tab-default .nav-tabs li + li {
+      margin-top: 10px; }
+  .cpe-tab-default.cpe-tab-icon-image .tab-content .tab-thumb {
+    float: none;
+    width: 100%; }
+  .cpe-tab-default.cpe-tab-icon-image .tab-content .tab-thumb + p {
+    float: none;
+    width: 100%;
+    margin-top: 15px; } }
